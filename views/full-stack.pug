@@ -1,0 +1,99 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title XIAOTONG's Portfolio
+  // fontawesome
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' crossorigin='anonymous')
+  // google font
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans+Condensed:wght@300&display=swap' rel='stylesheet')
+  // bootStrap
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous')
+  link(rel='stylesheet' href='/css/particle.css')
+#particles-js
+  // nav bar
+  .navbar-wrapper(style='position: absolute;')
+    .container-fluid
+      nav.navbar.navbar-expand-lg.navbar-dark.bg-dark(style='background-color: #111222 !important;')
+        button.navbar-toggler.align-items-end(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse.justify-content-center
+          ul.navbar-nav
+            li.nav-item.active
+              a.nav-link(href='/full-stack') FULL STACK
+            li.nav-item
+              a.nav-link(href='/data-analytics') DATA ANALYTICS
+            a.navbar-brand(style='visibility: hidden;' href='#') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            li.nav-item
+              a.nav-link(href='/skills') SKILLS
+            li.nav-item.dropdown
+              a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                | HOME
+              .dropdown-menu(aria-labelledby='navbarDropdown')
+                a.dropdown-item(href='https://xxiaotong.site/about/') About
+                a.dropdown-item(href='https://xxiaotong.site/archive/') Blog
+                .dropdown-divider
+                a.dropdown-item(href='https://xxiaotong.site/') Home
+  a#portfolio-logo(href='/')
+    | XIAOTONG&apos;S 
+    span(style='color: #74be35;') PORTFOLIO
+  // nar bar end
+  .header
+    h1.header-h1
+      | FULL STACK
+    form(class="" action="/front-end" method="get")
+     button.select-button.btn.btn-outline-light(type='submit') Front-End
+    form(class="" action="back-end" method="get")
+     button.btn.btn-outline-light.select-button.back-end-button(type='submit') Back-End
+    //
+      <div class="header-icons">
+      <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/avs1508/">
+      <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a aria-label="My Github Profile" target="_blank" href="https://github.com/AVS1508">
+      <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+      </a>
+      <a aria-label="My Résumé" target="_blank" href="https://www.adityavsingh.com/resume.html">
+      <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+      </a>
+      <a aria-label="Send Email" href="mailto:avsingh@umass.edu" target="_blank"
+      ><i class="icon fa fa-envelope"></i
+      ></a>
+      </div>
+.project-list
+ each project in projects
+  li(style="list-style-type: none;")
+    .container
+      .row
+        .col-lg-5.col-xl-5.col-12
+          img(src=project.image_urls[0] alt='tindog')
+        #middle-col.col-lg-2.col-xl-2.col-12
+          p(sytle='color: white;')=project.project_name
+          span(style='color: white; opacity: 0.9; font-size: 11px;')=project.type
+            span(style='color: white; opacity: 0.9; font-size: 11px;')=project.time
+          p(style="opacity: 0.6; margin-top: 60px;") TECHNOLOGIES
+          ul
+           each item in project.technologies
+            li(style="opacity: 0.6; position: relative; right: 18px;")=item
+        #last-col.col-lg-5.col-xl-5.col-12
+          p(style="margin-bottom: 40px;")=project.description 
+          a(href=project.live_link class="visit-button") Visit
+          br 
+          br
+          a(href=project.github_link class="visit-button") GitHub Repo
+  hr(style='opacity: 0.1; margin: 50px auto; width: 86%;')
+
+button(onclick="topFunction()", id="myBtn", title="Go to top" style="background-color: transparent; border: none; position: relative; left: 90%; bottom: 20px;")
+ i(class="fa fa-chevron-up" style="--fa-flash-opacity: 0.1; --fa-flash-scale: 1.25; color: white; size: 34px; transform-style: preserve-3d; animation: pulse 1.3s infinite")
+	
+		
+		
+		
+script(src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js')
+// Import JS: Sweet Scroll
+script(src='/js/sweet-scroll.min.js')
+script(src='/js/particle.js' charset='utf-8')
+script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')

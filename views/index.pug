@@ -1,0 +1,69 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title XIAOTONG's Portfolio
+  // fontawesome
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' crossorigin='anonymous')
+  // google font
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans+Condensed:wght@300&display=swap' rel='stylesheet')
+  // bootStrap
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous')
+  link(rel='stylesheet' href='/css/particle.css')
+#particles-js
+  // nav bar
+  .navbar-wrapper(style='position: absolute;')
+    .container-fluid
+      nav.navbar.navbar-expand-lg.navbar-dark.bg-dark(style='background-color: #111222 !important;')
+        button.navbar-toggler.align-items-end(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse.justify-content-center
+          ul.navbar-nav
+            li.nav-item.active
+              a.nav-link(href='/full-stack') FULL STACK
+            li.nav-item
+              a.nav-link(href='/data-analytics') DATA ANALYTICS
+            a.navbar-brand(style='visibility: hidden;' href='#') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            li.nav-item
+              a.nav-link(href='/skills') SKILLS
+            li.nav-item.dropdown
+              a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                | HOME
+              .dropdown-menu(aria-labelledby='navbarDropdown')
+                a.dropdown-item(href='https://xxiaotong.site/about/') About
+                a.dropdown-item(href='https://xxiaotong.site/archive/') Blog
+                .dropdown-divider
+                a.dropdown-item(href='https://xxiaotong.site/') Home
+  a#portfolio-logo(href='/')
+    | XIAOTONG&apos;S 
+    span(style='color: #74be35;') PORTFOLIO
+  // nar bar end
+  .header
+    p.header-p MY WORK IS INSPIRED BY TECHNOLOGY.
+    h1.header-h1
+      | View all projects by clicking full-stack or 
+      br
+      | data-analytics left-side above.
+    //
+      <div class="header-icons">
+      <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/avs1508/">
+      <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a aria-label="My Github Profile" target="_blank" href="https://github.com/AVS1508">
+      <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+      </a>
+      <a aria-label="My Résumé" target="_blank" href="https://www.adityavsingh.com/resume.html">
+      <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+      </a>
+      <a aria-label="Send Email" href="mailto:avsingh@umass.edu" target="_blank"
+      ><i class="icon fa fa-envelope"></i
+      ></a>
+      </div>
+script(src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js')
+// Import JS: Sweet Scroll
+script(src='/js/sweet-scroll.min.js')
+script(src='/js/particle.js' charset='utf-8')
+script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')

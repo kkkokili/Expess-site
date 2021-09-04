@@ -1,0 +1,230 @@
+{
+  "projects": [{
+      "id": 0,
+      "project_name": "TINDOG STATIC WEB PAGE",
+      "type": "Front-End",
+      "time": " - 2021",
+      "description": "It's a static web page like Tinder, but it's for dog.",
+      "technologies": ["HTML", "Bootstrap", "CSS"],
+      "live_link": "https://xxiaotong.site/Front_End_TinDog_Web_Page/",
+      "github_link": "https://github.com/kkkokili/Front_End_TinDog_Web_Page",
+      "image_urls": [
+        "/img/project-0/avatar.png",
+        "/img/project-0/tindog-1.png",
+        "/img/project-0/tindog-2.png",
+        "/img/project-0/tindog-3.png",
+        "/img/project-0/tindog-4.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "SIMPLE DICEE ROLL",
+      "type": "Front-End",
+      "time": " - 2021",
+      "description": "A simple Dicee Roll Game, click refresh to throw the dice. ",
+      "technologies": ["JavaScript", "HTML", "Bootstrap", "CSS"],
+      "live_link": "https://xxiaotong.site/FrontEnd_simpleDiceeRollGame/",
+      "github_link": "https://github.com/kkkokili/FrontEnd_simpleDiceeRollGame",
+      "image_urls": [
+        "/img/project-1/avatar.png",
+        "img/project-1/simpleDiceeRollGame-1.png",
+        "img/project-1/simpleDiceeRollGame-2.png",
+        "img/project-1/simpleDiceeRollGame-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "DRUM KIT PLAY",
+      "type": "Front-End",
+      "time": " - 2021",
+      "description": "A small project that visitors can play the sound of specific instrument by clicking the img or hitting certain key in the keyboard.",
+      "technologies": ["JavaScript", "HTML", "Bootstrap", "CSS"],
+      "live_link": "https://xxiaotong.site/Front_End_Drum_Kit/",
+      "github_link": "https://github.com/kkkokili/Front_End_Drum_Kit",
+      "image_urls": [
+        "/img/project-2/avatar.png",
+        "/img/project-2/drumKit-1.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "A RANDOM QUOTE GENERATOR",
+      "type": "Front-End",
+      "time": " - 2021",
+      "description": "JavaScript arrays and the random lib produce randomly generated quotes.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+      "live_link": "https://xxiaotong.site/Full_stack_Project_A_Random_Quote_Generator/",
+      "github_link": "https://github.com/kkkokili/Full_stack_Project_A_Random_Quote_Generator",
+      "image_urls": [
+        "/img/project-3/avatar.png",
+        "/img/project-3/quote-1.png",
+        "/img/project-3/quote-2.png",
+        "/img/project-3/quote-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "ASYNCHRONOUS JS PROJECT",
+      "type": "Front-End",
+      "time": " - 2021",
+      "description": "The mini project produces a webpage when click the 'view all the people' button. It shows astronauts info utilizing Asynchronous function with five solutions: Async-Await, Fetch, xhr with plane promise, xhr with callback, xhr without callback.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Bootstrap", "Async"],
+      "live_link": "http://xxiaotong.site/Asynchronous_JS_Project_with_5_different_Solutions/",
+      "github_link": "https://github.com/kkkokili/Asynchronous_JS_Project_with_5_different_Solutions",
+      "image_urls": [
+        "/img/project-4/avatar.png",
+        "/img/project-4/async-1.png",
+        "/img/project-4/async-2.png",
+        "/img/project-4/async-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "project_name": "FETCH API DOG BREED WEB APP",
+      "type": "Front-End",
+      "time": " - 2021",
+      "description": "Pull dog breed data from API and handle it asynchronously.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Bootstrap", "Async"],
+      "live_link": "https://xxiaotong.site/Fetch_API_Project_dogBreed_webAPP/",
+      "github_link": "https://github.com/kkkokili/Fetch_API_Project_dogBreed_webAPP",
+      "image_urls": [
+        "/img/project-5/avatar.png",
+        "/img/project-5/fetch-1.png",
+        "/img/project-5/fetch-2.png",
+        "/img/project-5/fetch-3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "project_name": "PUBLIC API REQUESTS",
+      "type": "Front-End",
+      "time": " - 2021",
+      "description": "Created an employee directory by communicating with a third-party API (Application Programming Interface) to display a specific number details.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Bootstrap", "Async"],
+      "live_link": "https://xxiaotong.site/Full-stack_Project_Public_API_Requests/",
+      "github_link": "https://github.com/kkkokili/Full-stack_Project_Public_API_Requests",
+      "image_urls": [
+        "/img/project-6/avatar.png",
+        "/img/project-6/API-1.png",
+        "/img/project-6/API-2.png"
+      ]
+    },
+    {
+      "id": 7,
+      "project_name": "AJAX BASIC MINI PROJECT",
+      "type": "Back-End",
+      "time": " - 2021",
+      "description": "HThis mini project is an Ajax-basics practice, it is run on **the localhost environment deployed by XAMPP**. All the files are on the server server. The web app deployed by JS vanilla shows the company's employee status and availability of the meeting room. It is quite basic. The Final Result shows as follows😉:",
+      "technologies": ["JavaScript", "HTML", "CSS", "Bootstrap", "Back-end"],
+      "github_link": "https://github.com/kkkokili/Ajax_Basics_Mini_Project",
+      "image_urls": [
+        "/img/project-7/avatar.png",
+        "/img/project-7/ajax.png"
+      ]
+    },
+    {
+      "id": 8,
+      "project_name": "EXPRESS DEPLOYTED BMI CALCULATOR",
+      "type": "Back-End",
+      "time": " - 2021",
+      "description": "The BMI Calculator uses Express toolkit (based on Node. js) to deploy a web app calculating the adult BMI index through input human weight and height.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Backend Node.js", "Express"],
+      "github_link": "https://github.com/kkkokili/Express_Deployed_BMI_Calculator",
+      "image_urls": [
+        "/img/project-8/avatar.png",
+        "/img/project-8/bmi-1.png",
+        "/img/project-8/bmi-2.png",
+        "/img/project-8/bmi-3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "project_name": "EXPRESS DEPLOYED WEATHER FETCH APP",
+      "type": "Back-End",
+      "time": " - 2021",
+      "description": "The Express Deployed Weather Fetch APP utilizes the data of Open Weather API as raw material. It first presents a web page where users could input the latitude and longitude of a location, and then the realtime weather condition in the moment as well as that in the next 7 days will be loaded.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Backend Node.js", "Express"],
+      "live_link": "https://frozen-hollows-73521.herokuapp.com/",
+      "github_link": "https://github.com/kkkokili/Express_Deployed_Weather_Fetch_Web_APP",
+      "image_urls": [
+        "/img/project-9/avatar.png",
+        "/img/project-9/weather-1.png",
+        "/img/project-9/weather-2.png",
+        "/img/project-9/weather-3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "project_name": "EXPRESS DEPLOYED NEWSLETTER SIGNUP PAGE",
+      "type": "Back-End",
+      "time": " - 2021",
+      "description": "The project is deployed by Node.js and hosted by Heroku. It mainly uses the Express library in node. The backend also takes advantage of MailChimp API which is used to store and manage subscriber's info. As you can see in display, after user submits the form, all the infomation flow to the MailChimp, and you can check out users' email, name and country there!",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Backend Node.js", "Express", "MailChimp", "Heroku"],
+      "live_link": "https://salty-tor-31149.herokuapp.com/",
+      "github_link": "https://github.com/kkkokili/ExpressDeployed_NewsLetter-SignUp-Page",
+      "image_urls": [
+        "/img/project-10/avatar.png",
+        "/img/project-10/newsletter-1.png",
+        "/img/project-10/newsletter-2.png"
+      ]
+    },
+    {
+      "id": 11,
+      "project_name": "MONGOOSE TO DO LIST APP",
+      "type": "Back-End",
+      "time": " - 2021",
+      "description": "It's a to-do-list app. New task items could be set up by clicking the '+' button and removed after the checkbox is checked. The customized task lists can be accessed through input params such as 'chores' or 'work' into url path, every single type-in will generate a relative customized task list.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Backend Node.js", "Express", "Heroku", "Mongoose", "MongoDB"],
+      "live_link": "https://fierce-castle-96071.herokuapp.com/work",
+      "github_link": "https://github.com/kkkokili/Mongoose_todoList_App",
+      "image_urls": [
+        "/img/project-11/avatar.png",
+        "/img/project-11/do-1.png",
+        "/img/project-11/do-2.png",
+        "/img/project-11/do-3.png"
+      ]
+    },
+    {
+      "id": 12,
+      "project_name": "MONGOOSE DAILY JOURNAL APP",
+      "type": "Back-End",
+      "time": " - 2021",
+      "description": "The Express and Mongoose Deployed Daily Journal Web APP contains the function of publishing, storing and deleting daily journals.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Backend Node.js", "Express", "Heroku", "ejs", "Mongoose", "MongoDB"],
+      "live_link": "https://secret-headland-41731.herokuapp.com/",
+      "github_link": "https://github.com/kkkokili/Mongoose_DailyJournal_APP",
+      "image_urls": [
+        "/img/project-12/avatar.png",
+        "/img/project-12/journal-1.png",
+        "/img/project-12/journal-2.png",
+        "/img/project-12/journal-3.png"
+      ]
+    },
+    {
+      "id": 13,
+      "project_name": "NODEJS AUTHENTICATION: SECRETS",
+      "type": "Back-End",
+      "time": " - 2021",
+      "description": "A website utilise different authentication stategy in Node.js to register user, and finally they could publish their secrets there. ",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Backend Node.js", "Express", "Heroku", "Mongoose", "MongoDB", "Passport"],
+      "live_link": "https://nameless-hamlet-51427.herokuapp.com/",
+      "github_link": "https://github.com/kkkokili/Authentication_Secrets",
+      "image_urls": [
+        "/img/project-13/avatar.png",
+        "/img/project-13/secrets-1.png",
+        "/img/project-13/secrets-2.png",
+        "/img/project-13/secrets-3.png"
+      ]
+    },{
+      "id": 14,
+      "project_name": "XIAOTONG'S PORTFOLIO SITE",
+      "type": "Back-End",
+      "time": " - 2021",
+      "description": "A template designed by myself to store all my project items.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Backend Node.js", "Express", "Netify", "Pug"],
+      "image_urls": [
+        "/img/project-14/avatar.png"
+      ]
+    }
+  ]
+}

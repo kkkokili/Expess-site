@@ -1,0 +1,93 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title XIAOTONG's Portfolio
+  // fontawesome
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' crossorigin='anonymous')
+  // google font
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans+Condensed:wght@300&display=swap' rel='stylesheet')
+  // bootStrap
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous')
+  link(rel='stylesheet' href='/css/particle.css')
+#particles-js
+  // nav bar
+  .navbar-wrapper(style='position: absolute;')
+    .container-fluid
+      nav.navbar.navbar-expand-lg.navbar-dark.bg-dark(style='background-color: #111222 !important;')
+        button.navbar-toggler.align-items-end(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse.justify-content-center
+          ul.navbar-nav
+            li.nav-item.active
+              a.nav-link(href='/full-stack') FULL STACK
+            li.nav-item
+              a.nav-link(href='/data-analytics') DATA ANALYTICS
+            a.navbar-brand(style='visibility: hidden;' href='#') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            li.nav-item
+              a.nav-link(href='/skills') SKILLS
+            li.nav-item.dropdown
+              a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                | HOME
+              .dropdown-menu(aria-labelledby='navbarDropdown')
+                a.dropdown-item(href='https://xxiaotong.site/about/') About
+                a.dropdown-item(href='https://xxiaotong.site/archive/') Blog
+                .dropdown-divider
+                a.dropdown-item(href='https://xxiaotong.site/') Home
+  a#portfolio-logo(href='/')
+    | XIAOTONG&apos;S 
+    span(style='color: #74be35;') PORTFOLIO
+  // nar bar end -
+  .container-fluid.skill-section
+    .row.align-items-start
+      .col--lg-4.col-xl-4.col-12
+        h4(class="skill-h4") Languages
+        ul.language-li
+          li Python
+          li SQL
+          li Spark SQL
+          li Mongo DB
+          li Git
+          li HTML5
+          li CSS
+          li Bootstrap
+          li JavaScript
+          li jQuery
+          li Node.JS
+          li Express
+          li React
+          li Pug 
+          li ejs
+          li Markdown
+          li(style="margin-top: 20px; list-style-type:none; position: relative; right: 15px;")  
+           a(href="/" style="color: yellow; text-decoration: none;") ← BACK
+      .col-lg-8.col-xl-8.col-12
+        h3#myName(style='margin-bottom: 30px;') XIAOTONG
+        p#introduce
+           |Hi, I'm xiaotong and I'm a code lover👍. I'm currently concentrating on using the MERN (MongoDB, Express, React, Node.js) stack, though I have experience building web apps with SQL databases as well. I first step into coding through data analytics, and have learnt the data science tools like Python, SQL for a long period. I'm a self-motivated, lifelong learner committed to constantly improving my skills and staying current on developments and trends in the industry.
+           br
+           br
+           |Please check out some of my portfolio projects which show my proficiency in Python, SQL, Spark SQL, Mongo DB, Git,H TML5, CSS, Bootstrap, JavaScript, jQuery, Node.JS, Express, React, Pug, ejs, Markdown and other web technologies. 
+        .header-icons
+          ul(style='list-style: none; text-align: left; padding-left: 0; padding-top: 2rem;')
+            li.icon-li
+              a(href='https://www.youtube.com/channel/UCY5q6lNBpHzLTTMtsnPo0kA')
+                i.icon.fab.fa-youtube(aria-hidden='true')
+            li.icon-li
+              a(href='#')
+                i.icon.fab.fa-linkedin-in(aria-hidden='true')
+            li.icon-li
+              a(href='https://github.com/kkkokili')
+                i.icon.fab.fa-github-alt(aria-hidden='true')
+            li.icon-li
+              a(href='mailto:kokili.developer@outlook.com' target='_blank')
+                i.icon.fa.fa-envelope(aria-hidden='true')
+
+script(src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js')
+// Import JS: Sweet Scroll
+script(src='/js/sweet-scroll.min.js')
+script(src='/js/particle.js' charset='utf-8')
+script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')
